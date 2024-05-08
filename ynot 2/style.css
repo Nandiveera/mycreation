@@ -1,0 +1,473 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    width: 100%;
+}
+@media (max-width: 600px) {
+    /* CSS styles for screens less than 600px wide */
+    .container {
+        flex-direction: column;
+    }
+}
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 1.8rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffca28;
+}
+
+.hero {
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffca28;
+}
+
+.services {
+    padding: 80px 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.service-item {
+    text-align: center;
+   
+    
+}
+.p1-item{
+   width: 400px;
+   height: 400px;
+ 
+
+}
+.p2-item{
+    width: 400px;
+    height: 400px;
+ 
+ }
+ .p3-item{
+    width: 400px;
+    height: 400px;
+ 
+ }
+ .p4-item{
+    width: 400px;
+    height: 400px;
+ 
+ }
+ .p5-item{
+    width: 400px;
+    height: 400px;
+ 
+ }
+ .p6-item{
+    width: 400px;
+    height: 400px;
+ 
+ }
+
+
+.service-title {
+    margin-top: 10px;
+}
+
+.about {
+    background-color: #f4f4f4;
+    padding: 80px 0;
+}
+
+.about-text {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+.review-feed {
+    font-size: 40px;
+    color: #c5c1c1;
+    rotate: 270deg;
+    margin-top: 250px;
+    text-transform: uppercase;
+
+}
+
+.feedback-insta {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    color: #B8860B;
+    display: ;
+
+}
+
+.insta {
+    color: palevioletred;
+    width: 50px;
+    height: 60px;
+    margin-left: 655px;
+    margin-top: -50px;
+
+
+
+}
+
+.icon {
+    margin-top: 25px;
+    margin-left: 10px;
+
+}
+
+.insta-text {
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.view {
+    padding: 10px;
+    color: black;
+    background-color: #A9A9A9;
+    font-size: 20px;
+    align-items: center;
+    margin-right: 40px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.us {
+    padding: 10px;
+    color: black;
+    background-color: #A9A9A9;
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight: 700;
+
+}
+
+.view:hover,
+.view:active {
+    background-color: black;
+    color: white;
+}
+
+.us:hover,
+.us:active {
+    background-color: black;
+    color: white;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-text {
+    margin-bottom: 20px;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #ffca28;
+}
+
+.footer-info {
+    font-size: 1.1rem;
+}
+
+.footer-info span {
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-text {
+        font-size: 1rem;
+    }
+}
+.ynot-mail {
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+
+}
+
+.ynot-id {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.id-heading{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.nav-icons{
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    margin-top: 10PX;
+    margin-bottom: 50px; 
+    margin-left: 540px;
+}
+.face-icon{
+    height: 50px;
+    width: 50px;
+}
+.ins-icon{
+    height: 50px;
+    width: 50px;
+}
+.you-icon{
+    height: 50px;
+    width: 50px;
+}
+/* General container styling */
+.container-blog {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add some padding for spacing */
+    box-sizing: border-box; /* Include padding and border in width and height */
+}
+
+/* Header section styling */
+.header-section {
+    text-align: center; /* Center the text */
+    margin-bottom: 20px; /* Add some margin below the header section */
+}
+
+/* Intro text styling */
+.intro-text {
+    font-size: 2rem; /* Increase the font size */
+    color: #333; /* Dark gray color */
+    margin: 0; /* Remove margin */
+}
+
+/* Intro description styling */
+.intro-description {
+    font-size: 1.2rem; /* Adjust font size */
+    color: #666; /* Light gray color */
+    margin: 10px 0 0; /* Add some margin for spacing */
+}
+
+/* Blog title styling */
+.blog-title {
+    font-size: 1.5rem; /* Increase the font size */
+    color: #333; /* Dark gray color */
+    margin: 20px 0; /* Add margin for spacing */
+    text-align: center; /* Center the title */
+}
+
+/* Grid layout for blog images */
+.grid-layout {
+    display: grid; /* Use CSS grid */
+    grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+    grid-gap: 10px; /* Add some gap between grid items */
+}
+
+/* Blog image styling */
+.blog-image {
+    width: 400px;
+    height: 300px; /* Make images responsive */
+    column-gap: 20px;
+    border-radius: 5px; /* Rounded corners */
+    transition: transform 0.3s; /* Smooth transform on hover */
+}
+
+/* Hover effect for blog images */
+.blog-image:hover {
+    transform: scale(1.05); /* Scale up image slightly */
+}
+/* Container styles */
+.container {
+    max-width: 1200px; /* Adjust to your preference */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Grid layout styles */
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Adjust the gap between grid columns */
+}
+
+/* Award content styles */
+.award-content {
+    text-align: left;
+}
+
+.award-title {
+    font-size: 2.5rem; /* Adjust to your preference */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.award-quote {
+    font-size: 1.2rem; /* Adjust to your preference */
+    font-style: italic;
+    color: #666; /* Gray color */
+    margin-bottom: 15px;
+}
+
+.award-count {
+    font-size: 2rem; /* Adjust to your preference */
+    font-weight: bold;
+    color: #333; /* Darker gray */
+}
+
+/* Award image styles */
+.award-image {
+    text-align: center; /* Center the image */
+}
+
+.award-img {
+    max-width: 100%; /* Responsive image */
+    height: auto;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Award final styles */
+.award-final {
+    text-align: center; /* Center the heading */
+}
+
+.win-text {
+    font-size: 2rem; /* Adjust to your preference */
+    font-weight: bold;
+    color: #000; /* Black color */
+}
+
+.win-text span {
+    color: #FF6347; /* Accent color */
+}
+
+
